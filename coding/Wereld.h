@@ -28,7 +28,6 @@ public:
         }
     }
 
-    // Functies voor het updaten van de wereld, het tellen van buren, etc.
     void updateWereld()
     {
         auto tempMatrix = matrix;

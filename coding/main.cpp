@@ -13,7 +13,7 @@ int main() {
     // DayNightRegels regels;
     Wereld wereld(25, &regels);
 
-    for (int i = 0; i < 10; ++i) { // Voor 10 generaties
+    for (int i = 0; i < 10; ++i) { 
         wereld.printWereld();
         wereld.updateWereld();
         std::cout << "-------------------\n";
